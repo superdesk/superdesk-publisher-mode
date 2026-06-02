@@ -9,27 +9,15 @@
         "items": [
             {
                 "is_active": true,
-                "name": "FIXME1",
+                "name": "Politics",
                 "qcode": "f1",
-                "subject": "",
-                "translations": {
-                    "name": {
-                        "fr": "FIXME1-fr",
-                        "es": "FIXME1-es"
-                    }
-                }
+                "subject": ""
             },
             {
                 "is_active": true,
-                "name": "FIXME2",
+                "name": "Business",
                 "qcode": "f2",
-                "subject": "",
-                "translations": {
-                    "name": {
-                        "fr": "FIXME2-fr",
-                        "es": "FIXME2-es"
-                    }
-                }
+                "subject": ""
             }
         ],
         "schema": {
