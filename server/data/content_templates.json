@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "6a1fe5f5e82a272654cbe1b8",
+    "template_name": "kill",
+    "template_type": "kill",
+    "is_public": true,
+    "data": {
+      "body_html": "FIXME",
+      "type": "text",
+      "ednote": "",
+      "abstract": "",
+      "headline": "Kill/Takedown notice",
+      "anpa_take_key": "KILL/TAKEDOWN",
+      "pubstatus": "usable",
+      "flags": {
+        "marked_for_not_publication": false,
+        "marked_for_legal": false,
+        "marked_archived_only": false,
+        "marked_for_sms": false
+      },
+      "format": "HTML"
+    },
+    "_etag": "init",
+    "_created": "2026-06-03T08:29:41+0000",
+    "_updated": "2026-06-03T08:29:41+0000",
+    "_links": {
+      "self": {
+        "title": "Content_template",
+        "href": "content_templates/6a1fe5f5e82a272654cbe1b8"
+      }
+    }
+  },
+  {
+    "_id": "6a1fe5f5e82a272654cbe1ba",
+    "template_name": "News",
+    "template_type": "create",
+    "is_public": true,
+    "data": {
+      "profile": "text",
+      "type": "text",
+      "pubstatus": "usable",
+      "flags": {
+        "marked_for_not_publication": false,
+        "marked_for_legal": false,
+        "marked_archived_only": false,
+        "marked_for_sms": false
+      },
+      "format": "HTML",
+      "associations": {},
+      "fields_meta": {
+        "headline": {
+          "draftjsState": [
+            {
+              "blocks": [
+                {
+                  "key": "7dpbi",
+                  "text": "",
+                  "type": "unstyled",
+                  "depth": 0,
+                  "inlineStyleRanges": [],
+                  "entityRanges": [],
+                  "data": {
+                    "MULTIPLE_HIGHLIGHTS": {}
+                  }
+                }
+              ],
+              "entityMap": {}
+            }
+          ]
+        },
+        "abstract": {
+          "draftjsState": [
+            {
+              "blocks": [
+                {
+                  "key": "4cidl",
+                  "text": "",
+                  "type": "unstyled",
+                  "depth": 0,
+                  "inlineStyleRanges": [],
+                  "entityRanges": [],
+                  "data": {
+                    "MULTIPLE_HIGHLIGHTS": {}
+                  }
+                }
+              ],
+              "entityMap": {}
+            }
+          ]
+        },
+        "body_html": {
+          "draftjsState": [
+            {
+              "blocks": [
+                {
+                  "key": "7aruk",
+                  "text": "",
+                  "type": "unstyled",
+                  "depth": 0,
+                  "inlineStyleRanges": [],
+                  "entityRanges": [],
+                  "data": {
+                    "MULTIPLE_HIGHLIGHTS": {}
+                  }
+                }
+              ],
+              "entityMap": {}
+            }
+          ]
+        }
+      },
+      "headline": "",
+      "abstract": "",
+      "body_html": ""
+    },
+    "_etag": "275596528dc79ed762d5e60357684840f67380b5",
+    "_created": "2026-06-03T08:29:41+0000",
+    "_updated": "2026-06-10T10:55:52+0000",
+    "template_desks": [
+      "6a214c801b44ba089fb7fb7d"
+    ],
+    "schedule": {
+      "cron_list": []
+    },
+    "next_run": null,
+    "_links": {
+      "self": {
+        "title": "Content_template",
+        "href": "content_templates/6a1fe5f5e82a272654cbe1ba"
+      },
+      "related": {
+        "template_desks": [
+          {
+            "title": "Desk",
+            "href": "desks/6a214c801b44ba089fb7fb7d"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "_id": "6a1fe5f5e82a272654cbe1b9",
+    "template_name": "takedown",
+    "template_type": "kill",
+    "is_public": true,
+    "data": {
+      "body_html": "FIXME",
+      "type": "text",
+      "ednote": "",
+      "abstract": "",
+      "headline": "Takedown notice",
+      "anpa_take_key": "TAKEDOWN",
+      "pubstatus": "usable",
+      "flags": {
+        "marked_for_not_publication": false,
+        "marked_for_legal": false,
+        "marked_archived_only": false,
+        "marked_for_sms": false
+      },
+      "format": "HTML"
+    },
+    "_etag": "init",
+    "_created": "2026-06-03T08:29:41+0000",
+    "_updated": "2026-06-03T08:29:41+0000",
+    "_links": {
+      "self": {
+        "title": "Content_template",
+        "href": "content_templates/6a1fe5f5e82a272654cbe1b9"
+      }
+    }
+  }
+]

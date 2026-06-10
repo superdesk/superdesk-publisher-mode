@@ -53,6 +53,7 @@ module.exports = function() {
                 'Being Corrected': 'Being Updated',
                 'Send correction': 'Send update',
                 'Edit and Correct': 'Edit and Update',
+                'Cancel correction': 'Cancel update',
                 'Update': 'New version',
                 'UPDATE': 'New version',
                 'Update created': 'New version created',
@@ -105,7 +106,7 @@ module.exports = function() {
             customAuthoringTopbar: {
                 toDesk: true,
                 publish: true,
-
+                publishAndContinue: true,
                 sendAndDuplicate: {
                     deskName: 'Test',
                     stageName: 'Working',

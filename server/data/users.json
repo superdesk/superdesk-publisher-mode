@@ -1,0 +1,667 @@
+[
+  {
+    "_id": "6a1fe5f9c26ea6a701038363",
+    "username": "admin",
+    "password_changed_on": "2026-06-03T08:29:45+0000",
+    "display_name": "admin",
+    "email": "admin@example.com",
+    "user_info": {},
+    "privileges": {},
+    "workspace": {},
+    "user_type": "administrator",
+    "is_support": false,
+    "is_author": true,
+    "private": false,
+    "is_active": true,
+    "is_enabled": true,
+    "needs_activation": false,
+    "sign_off": "",
+    "user_preferences": {
+      "email:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": true,
+        "label": "Send notifications via email",
+        "category": "notifications"
+      },
+      "notifications": {
+        "type": "dict",
+        "schema": {}
+      },
+      "desktop:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Desktop Notifications",
+        "category": "notifications"
+      },
+      "cvs:preferred_items": {
+        "value": {},
+        "label": "Prefered CV items",
+        "category": "cvs"
+      },
+      "feature:preview": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "privileges": [
+          "feature_preview"
+        ],
+        "label": "Enable Feature Preview",
+        "category": "feature"
+      },
+      "archive:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users archive view format",
+        "category": "archive"
+      },
+      "application:theme": {
+        "type": "string",
+        "allowed": [
+          "light-ui",
+          "dark-ui"
+        ],
+        "theme": "light-ui"
+      },
+      "singleline:view": {
+        "type": "bool",
+        "enabled": null,
+        "default": false,
+        "label": "Enable Single Line View",
+        "category": "rows"
+      },
+      "editor:theme": {
+        "type": "string",
+        "theme": ""
+      },
+      "workqueue:items": {
+        "items": []
+      },
+      "dashboard:ingest": {
+        "providers": []
+      },
+      "agg:view": {
+        "active": {}
+      },
+      "templates:recent": {
+        "null": [
+          "6a1fe5f5e82a272654cbe1ba"
+        ]
+      },
+      "dateline:located": {
+        "type": "dict",
+        "label": "Located",
+        "category": "article_defaults"
+      },
+      "categories:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Categories",
+        "category": "categories"
+      },
+      "desks:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Desks",
+        "category": "desks"
+      },
+      "article:default:place": {
+        "type": "list",
+        "place": [],
+        "label": "Place",
+        "category": "article_defaults"
+      },
+      "spellchecker:status": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "contacts:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users contacts view format",
+        "category": "contacts"
+      },
+      "destination:active": {},
+      "extensions": {},
+      "search:filters_panel_open": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "masterdesk:desks": {},
+      "editor:char_limit_ui": {},
+      "editor:pinned_widget": {},
+      "mark_for_user:notification": {},
+      "assignment:notification": {},
+      "workspace:active": {
+        "type": "string",
+        "workspace": ""
+      },
+      "monitoring:view": {
+        "type": "string",
+        "view": "list",
+        "default": "list",
+        "label": "Monitoring view"
+      },
+      "events_templates:recent": {},
+      "assignments:default_sort": {
+        "type": "dict",
+        "sort": {},
+        "default": null,
+        "label": "Default sort preferences for Assignment lists",
+        "category": "Assignments"
+      },
+      "slack:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Notifications To Slack",
+        "category": "Notifications"
+      },
+      "planning:calendar": {
+        "type": "dict",
+        "calendar": {},
+        "label": "Default Calendar",
+        "category": "Planning"
+      },
+      "planning:agenda": {
+        "type": "dict",
+        "agenda": {},
+        "default": null,
+        "label": "Default Agenda",
+        "category": "Planning"
+      },
+      "planning:events_planning_filter": {
+        "type": "dict",
+        "filter": {},
+        "default": null,
+        "label": "Default Events Planning Filter",
+        "category": "Planning"
+      },
+      "planning:default_coverage_desks": {
+        "type": "dict",
+        "desks": {},
+        "default": null,
+        "label": "Default desk for coverage types",
+        "category": "Planning"
+      },
+      "planning:add_coverage_advanced_mode": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "label": "Open advanced mode when adding coverages",
+        "category": "Planning"
+      }
+    },
+    "_etag": "231202a91046b59cb4fef3a48bf5693e01e16aad",
+    "invisible_stages": [],
+    "_updated": "2026-06-10T11:39:50+0000",
+    "last_activity_at": "2026-06-10T11:39:50+0000",
+    "_created": "1970-01-01T00:00:00+0000",
+    "_links": {
+      "self": {
+        "title": "User",
+        "href": "users/6a1fe5f9c26ea6a701038363"
+      }
+    },
+    "dateline_source": "SoFab"
+  },
+  {
+    "_id": "6a29363ff093a8f2ad8eca6e",
+    "first_name": "Douglas",
+    "last_name": "Pabst",
+    "username": "douglas",
+    "email": "deepspacenine+editor@sourcefabric.org",
+    "role": "6a214ca21b44ba089fb7fb83",
+    "is_author": true,
+    "user_type": "user",
+    "is_support": false,
+    "private": false,
+    "is_active": true,
+    "is_enabled": true,
+    "needs_activation": false,
+    "_updated": "2026-06-10T11:32:46+0000",
+    "_created": "2026-06-10T10:02:38+0000",
+    "password_changed_on": "2026-06-10T10:05:16+0000",
+    "display_name": "Douglas Pabst",
+    "sign_off": "DP",
+    "user_preferences": {
+      "email:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": true,
+        "label": "Send notifications via email",
+        "category": "notifications"
+      },
+      "notifications": {
+        "type": "dict",
+        "schema": {}
+      },
+      "desktop:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Desktop Notifications",
+        "category": "notifications"
+      },
+      "cvs:preferred_items": {
+        "value": {},
+        "label": "Prefered CV items",
+        "category": "cvs"
+      },
+      "feature:preview": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "privileges": [
+          "feature_preview"
+        ],
+        "label": "Enable Feature Preview",
+        "category": "feature"
+      },
+      "archive:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users archive view format",
+        "category": "archive"
+      },
+      "application:theme": {
+        "type": "string",
+        "allowed": [
+          "light-ui",
+          "dark-ui"
+        ],
+        "theme": "light-ui"
+      },
+      "singleline:view": {
+        "type": "bool",
+        "enabled": null,
+        "default": false,
+        "label": "Enable Single Line View",
+        "category": "rows"
+      },
+      "editor:theme": {
+        "type": "string",
+        "theme": ""
+      },
+      "workqueue:items": {
+        "items": []
+      },
+      "dashboard:ingest": {
+        "providers": []
+      },
+      "agg:view": {
+        "active": {}
+      },
+      "templates:recent": {
+        "null": [
+          "6a1fe5f5e82a272654cbe1ba"
+        ]
+      },
+      "dateline:located": {
+        "type": "dict",
+        "label": "Located",
+        "category": "article_defaults"
+      },
+      "categories:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Categories",
+        "category": "categories"
+      },
+      "desks:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Desks",
+        "category": "desks"
+      },
+      "article:default:place": {
+        "type": "list",
+        "place": [],
+        "label": "Place",
+        "category": "article_defaults"
+      },
+      "spellchecker:status": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "contacts:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users contacts view format",
+        "category": "contacts"
+      },
+      "destination:active": {},
+      "extensions": {},
+      "search:filters_panel_open": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "masterdesk:desks": {},
+      "editor:char_limit_ui": {},
+      "editor:pinned_widget": {},
+      "mark_for_user:notification": {},
+      "assignment:notification": {},
+      "workspace:active": {
+        "type": "string",
+        "workspace": ""
+      },
+      "monitoring:view": {
+        "type": "string",
+        "view": "list",
+        "default": "list",
+        "label": "Monitoring view"
+      },
+      "events_templates:recent": {},
+      "assignments:default_sort": {
+        "type": "dict",
+        "sort": {},
+        "default": null,
+        "label": "Default sort preferences for Assignment lists",
+        "category": "Assignments"
+      },
+      "slack:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Notifications To Slack",
+        "category": "Notifications"
+      },
+      "planning:calendar": {
+        "type": "dict",
+        "calendar": {},
+        "label": "Default Calendar",
+        "category": "Planning"
+      },
+      "planning:agenda": {
+        "type": "dict",
+        "agenda": {},
+        "default": null,
+        "label": "Default Agenda",
+        "category": "Planning"
+      },
+      "planning:events_planning_filter": {
+        "type": "dict",
+        "filter": {},
+        "default": null,
+        "label": "Default Events Planning Filter",
+        "category": "Planning"
+      },
+      "planning:default_coverage_desks": {
+        "type": "dict",
+        "desks": {},
+        "default": null,
+        "label": "Default desk for coverage types",
+        "category": "Planning"
+      },
+      "planning:add_coverage_advanced_mode": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "label": "Open advanced mode when adding coverages",
+        "category": "Planning"
+      }
+    },
+    "_etag": "b7b9554473d9f97c5e7e8baf3b97e1f4d5b25f77",
+    "invisible_stages": [],
+    "last_activity_at": "2026-06-10T11:32:46+0000",
+    "_links": {
+      "self": {
+        "title": "User",
+        "href": "users/6a29363ff093a8f2ad8eca6e"
+      },
+      "related": {
+        "role": {
+          "title": "Role",
+          "href": "roles/6a214ca21b44ba089fb7fb83"
+        }
+      }
+    },
+    "dateline_source": "SoFab"
+  },
+  {
+    "_id": "6a293608f093a8f2ad8eca6a",
+    "first_name": "Jake",
+    "last_name": "Sisko",
+    "username": "jake",
+    "email": "deepspacenine@sourcefabric.org",
+    "role": "6a214c961b44ba089fb7fb81",
+    "is_author": true,
+    "user_type": "user",
+    "is_support": false,
+    "private": false,
+    "is_active": true,
+    "is_enabled": true,
+    "needs_activation": false,
+    "_updated": "2026-06-10T10:06:13+0000",
+    "_created": "2026-06-10T10:01:44+0000",
+    "password_changed_on": "2026-06-10T10:04:37+0000",
+    "display_name": "Jake Sisko",
+    "sign_off": "JS",
+    "user_preferences": {
+      "email:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": true,
+        "label": "Send notifications via email",
+        "category": "notifications"
+      },
+      "notifications": {
+        "type": "dict",
+        "schema": {}
+      },
+      "desktop:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Desktop Notifications",
+        "category": "notifications"
+      },
+      "cvs:preferred_items": {
+        "value": {},
+        "label": "Prefered CV items",
+        "category": "cvs"
+      },
+      "feature:preview": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "privileges": [
+          "feature_preview"
+        ],
+        "label": "Enable Feature Preview",
+        "category": "feature"
+      },
+      "archive:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users archive view format",
+        "category": "archive"
+      },
+      "application:theme": {
+        "type": "string",
+        "allowed": [
+          "light-ui",
+          "dark-ui"
+        ],
+        "theme": "light-ui"
+      },
+      "singleline:view": {
+        "type": "bool",
+        "enabled": null,
+        "default": false,
+        "label": "Enable Single Line View",
+        "category": "rows"
+      },
+      "editor:theme": {
+        "type": "string",
+        "theme": ""
+      },
+      "workqueue:items": {
+        "items": []
+      },
+      "dashboard:ingest": {
+        "providers": []
+      },
+      "agg:view": {
+        "active": {}
+      },
+      "templates:recent": {},
+      "dateline:located": {
+        "type": "dict",
+        "label": "Located",
+        "category": "article_defaults"
+      },
+      "categories:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Categories",
+        "category": "categories"
+      },
+      "desks:preferred": {
+        "type": "dict",
+        "selected": {},
+        "label": "Preferred Desks",
+        "category": "desks"
+      },
+      "article:default:place": {
+        "type": "list",
+        "place": [],
+        "label": "Place",
+        "category": "article_defaults"
+      },
+      "spellchecker:status": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "contacts:view": {
+        "type": "string",
+        "allowed": [
+          "mgrid",
+          "compact"
+        ],
+        "view": "mgrid",
+        "default": "mgrid",
+        "label": "Users contacts view format",
+        "category": "contacts"
+      },
+      "destination:active": {},
+      "extensions": {},
+      "search:filters_panel_open": {
+        "type": "bool",
+        "enabled": true,
+        "default": true
+      },
+      "masterdesk:desks": {},
+      "editor:char_limit_ui": {},
+      "editor:pinned_widget": {},
+      "mark_for_user:notification": {},
+      "assignment:notification": {},
+      "workspace:active": {
+        "type": "string",
+        "workspace": ""
+      },
+      "monitoring:view": {
+        "type": "string",
+        "view": "list",
+        "default": "list",
+        "label": "Monitoring view"
+      },
+      "events_templates:recent": {},
+      "assignments:default_sort": {
+        "type": "dict",
+        "sort": {},
+        "default": null,
+        "label": "Default sort preferences for Assignment lists",
+        "category": "Assignments"
+      },
+      "slack:notification": {
+        "type": "bool",
+        "enabled": true,
+        "default": false,
+        "label": "Allow Notifications To Slack",
+        "category": "Notifications"
+      },
+      "planning:calendar": {
+        "type": "dict",
+        "calendar": {},
+        "label": "Default Calendar",
+        "category": "Planning"
+      },
+      "planning:agenda": {
+        "type": "dict",
+        "agenda": {},
+        "default": null,
+        "label": "Default Agenda",
+        "category": "Planning"
+      },
+      "planning:events_planning_filter": {
+        "type": "dict",
+        "filter": {},
+        "default": null,
+        "label": "Default Events Planning Filter",
+        "category": "Planning"
+      },
+      "planning:default_coverage_desks": {
+        "type": "dict",
+        "desks": {},
+        "default": null,
+        "label": "Default desk for coverage types",
+        "category": "Planning"
+      },
+      "planning:add_coverage_advanced_mode": {
+        "type": "bool",
+        "enabled": false,
+        "default": false,
+        "label": "Open advanced mode when adding coverages",
+        "category": "Planning"
+      }
+    },
+    "_etag": "00dc153796352f0d29785458c26a2f79aa0aaae0",
+    "invisible_stages": [],
+    "last_activity_at": null,
+    "_links": {
+      "self": {
+        "title": "User",
+        "href": "users/6a293608f093a8f2ad8eca6a"
+      },
+      "related": {
+        "role": {
+          "title": "Role",
+          "href": "roles/6a214c961b44ba089fb7fb81"
+        }
+      }
+    },
+    "dateline_source": "SoFab"
+  }
+]
