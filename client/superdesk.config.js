@@ -103,6 +103,7 @@ module.exports = function() {
             editor3: true,
             editorHighlights: true,
             noPublishOnAuthoringDesk: true,
+            sendToPersonal: true,
             customAuthoringTopbar: {
                 toDesk: true,
                 publish: true,
