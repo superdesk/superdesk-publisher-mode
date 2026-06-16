@@ -120,7 +120,7 @@ module.exports = function() {
             elasticHighlight: true,
             planning: true,
             autorefreshContent: true,
-            nestedItemsInOutputStage: false,
+            nestedItemsInOutputStage: true,
             planning: true,
         },
 
